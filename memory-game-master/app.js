@@ -63,6 +63,11 @@ let cardsChosen = [];
 let cardsChosenId = [];
 let cardsWon = [];
 
+//remove event listener after found the match
+//remove message after a few seconds
+// a reload game option
+
+
 function createBoard() {
   for (let i = 0; i < cardArray.length; i++) {
     let card = document.createElement('img');
